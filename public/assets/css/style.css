@@ -1,0 +1,73 @@
+body{
+    background-color: #330000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23D18'/%3E%3Cstop offset='1' stop-color='%23330000'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23FA3' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23FA3' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.4'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.data{
+    background-color: white;
+    opacity: .65;
+    margin: 10px;
+    padding: 25px;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.data a{
+    font-size: 36px;
+    color: #330000;
+    padding-bottom: 20px;
+    border-bottom: 10px;
+}
+.data a:hover {
+    color: #FFF;
+    background-color: #DD1188;
+    padding: 15px;
+    text-decoration: none;
+}
+.data h4{
+    color: #330000;
+    font-size: 24px;
+}
+h1 {
+    font-family: 'Limelight', cursive;
+    font-size: 80px;
+    padding: 15px;
+}
+.heading{
+    text-align: center;
+    color: white;
+    font-family: 'Limelight', cursive;
+}
+.sub-text{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav-link{
+    color: white;
+    font-size: 24px;
+    margin: 10px;
+    padding: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.nav-link:hover {
+    color: #FFF;
+    background-color: #DD1188;
+}
+
+.content{
+    font-size: 16px;
+    margin-top: 14px;
+}
+img{
+    align-content: center;
+    padding: 5px 25px 25px 25px;
+    width: 100%;
+    height: 300px;
+}
+h2{
+    color: white;
+}
+btn{
+    padding-left: 30px;
+}
