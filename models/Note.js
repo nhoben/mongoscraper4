@@ -1,7 +1,7 @@
 
 var mongoose = require("mongoose");
 
-// reference to the Schema contructor 
+// this is the reference to the Schema contructor 
 var Schema = mongoose.Schema;
 
 // create a new NoteSchema object 
@@ -15,5 +15,5 @@ var NoteSchema = new Schema({
 });
 
 var Note = mongoose.model("Note", NoteSchema);
-
+//export the note
 module.exports = Note;

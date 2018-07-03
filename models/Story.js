@@ -32,7 +32,7 @@ var StorySchema = new Schema({
   }
 });
 
-// use mongoose model method to create model from story Schema 
+// use mongo model method to create model from Schema
 var Story = mongoose.model("Story", StorySchema);
 
 //export the Story model 
